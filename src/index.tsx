@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AplArkademi from './laman/AplArkademi';
+import AplArkademi from './Laman/AplArkademi';
 import reportWebVitals from './reportWebVitals';
 import './index.css'
 

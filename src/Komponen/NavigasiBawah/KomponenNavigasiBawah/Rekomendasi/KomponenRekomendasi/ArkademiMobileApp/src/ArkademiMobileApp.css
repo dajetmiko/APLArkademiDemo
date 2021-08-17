@@ -1,0 +1,30 @@
+@import '../../../../../../../css/Akar.css';
+
+.teks-akademi-mobile-app{
+    color: var(--warna-teks);
+    font-size: 17px;
+
+}
+
+.prompt-download-store{
+    width: 144px;
+    height: 42px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.prompt-download-store:hover{
+    cursor: pointer;
+}
+
+.terdaftar-di{
+    display: flex;
+    align-items: center;
+    color: var(--warna-teks-gelap);
+    font-weight: 600;
+    font-size: 13;
+}
+
+.gambar-kominfo{
+    margin-left: 5px;
+}

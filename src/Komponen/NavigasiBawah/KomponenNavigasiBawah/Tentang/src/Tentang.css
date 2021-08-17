@@ -1,0 +1,9 @@
+@import '../../../../../css/Akar.css';
+
+.tentang-nav-bawah{
+    display: flex;
+    padding: var(--padding-sisi);
+    width: calc(100% - (2 * var(--padding-sisi)));
+    justify-content: space-between;
+    background-color: var(--bg-lebih-gelap);
+}

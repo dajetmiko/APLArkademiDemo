@@ -1,0 +1,33 @@
+@import '../../../../../../../css/Akar.css';
+
+.isi-tentang{
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - (var(--padding-sisi) * 2))/2);
+}
+
+.judul-tentang{
+    font-size: 16px;
+    color: var(--warna-teks-gelap);
+    font-weight: 800;
+}
+
+.logo-judul-tentang{
+    width: 145px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.teks-tentang{
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--warna-teks);
+    font-weight: 500;
+}
+
+.logo-setelah-tentang{
+    margin-top: 8px;
+    width: 248px;
+    height: 33px;
+    object-fit: contain;
+}

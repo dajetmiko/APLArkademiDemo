@@ -3,9 +3,9 @@
 .rekomendasi{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    padding: 5%;
-    padding-bottom: 0px;
+    width: calc(100% - (2 * var(--padding-sisi)));
+    padding: var(--padding-sisi);
+    padding-bottom: 2%;
     background-color: var(--bg-gelap);
 }
 
@@ -15,7 +15,23 @@
     flex-direction: row;
 }
 
+.metode-pembayaran{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-top: var(--batas);
+}
+
+.judul-metode-pembayaran{
+    color: var(--warna-teks-cerah);
+    font-size: 13px;
+}
+
 .isi-metode-pembayaran{
     display: flex;
+    object-fit: contain;
     flex-direction: row;
+    width: 80%;
+    height: 33px
 }

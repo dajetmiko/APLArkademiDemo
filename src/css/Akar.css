@@ -2,10 +2,12 @@
     --bg: #ffffff;
     --bg-gelap: #41485D0F;
     --bg-lebih-gelap: #676C7A29;
+    --bg-tergelap: #1C1D20;
 
     --warna-teks-gelap: #1C1D20FF; 
     --warna-teks: #1C1D20CC;
     --warna-teks-cerah: #1C1D2080;
+    --warna-teks-putih: #FFFFFFFF;
 
     --batas: 1px solid #1C1D2034;
     --batas-input: 3px solid #51608C19;
@@ -17,7 +19,7 @@
     --warna-sekunder: #FF5718;
     --warna-sekunder-cerah: #FF7F26;
 
-    --padding-sisi: 10%;
+    --padding-sisi: 5%;
     
     --ukuran-nav-atas:68px;
 }

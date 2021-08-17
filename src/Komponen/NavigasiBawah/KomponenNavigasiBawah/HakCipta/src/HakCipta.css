@@ -1,0 +1,31 @@
+@import '../../../../../css/Akar.css';
+
+.hak-cipta-nav-bawah{
+    --padding-atas-bawah: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-tergelap);
+    font-size: 18px;
+    padding: var(--padding-sisi);
+    padding-top: var(--padding-atas-bawah);
+    padding-bottom: var(--padding-atas-bawah);
+    justify-content: space-between;
+}
+
+.teks-hak-cipta{
+    color: #808080;
+}
+
+.seluruh-tautan-pelanggan{
+    display: flex;
+    flex-direction: row;
+}
+
+.tautan-pelanggan{
+    margin-left: 40px;
+    color: var(--warna-teks-putih);
+}
+
+.tautan-pelanggan:hover{
+    cursor: pointer;
+}
