@@ -1,0 +1,53 @@
+@import '../../../../../css/Akar.css';
+
+.header-laman-utama{
+    width: 100%;
+    background-image: url('./header-laman-utama.png');
+    background-size: cover;
+    
+}
+
+.isi-header-laman-utama{
+    position: relative;
+    padding: var(--padding-sisi);
+    padding-right: calc( 50% + var(--padding-sisi));
+    width: calc(100% - (var(--padding-sisi) * 2) - (50% + var(--padding-sisi)));
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    color: var(--warna-teks-putih);
+}
+
+.judul-isi-header-laman-utama{
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.teks-isi-header-laman-utama{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.tbl-isi-header-laman-utama{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 20px;
+    width:fit-content;
+    color:var(--warna-teks-primer);
+    background-color: var(--bg);
+}
+
+.teks-tbl-isi-header-laman-utama{
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.tbl-isi-header-laman-utama:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+}

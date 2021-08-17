@@ -1,0 +1,16 @@
+@import '../../../../../css/Akar.css';
+
+.media-yang-meliput{
+    padding: var(--padding-sisi);
+    padding-top: 40px;
+    padding-bottom: 0;
+    width: calc(100% - (2* var(--padding-sisi)));
+    
+}
+
+.gbr-media-yang-meliput{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 8px;
+    transition: 300ms filter;
+}

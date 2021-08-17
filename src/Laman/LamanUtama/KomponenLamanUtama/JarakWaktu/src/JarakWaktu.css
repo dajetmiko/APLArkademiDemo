@@ -1,0 +1,55 @@
+@import '../../../../../css/Akar.css';
+
+.jarak-waktu{
+    margin-top: 60px;
+    width: 100%;
+    background-image: url('./jarak-waktu.png');
+    background-size: cover;
+}
+
+.isi-jarak-waktu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-sisi);
+    width: calc(100% - (2* var(--padding-sisi)))
+}
+
+.gbr-jempol-jarak-waktu{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.judul-jarak-waktu{
+    width: 80%;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.teks-jarak-waktu{
+    width: 80%;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tbl-daftar-sekarang{
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--warna-sekunder);
+    transition: 200ms background-color;
+    text-align: center;
+}
+
+.tbl-daftar-sekarang:hover{
+    cursor: pointer;
+    background-color: var(--warna-primer);
+}

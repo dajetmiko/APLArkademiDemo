@@ -1,0 +1,41 @@
+@import '../../../../../css/Akar.css';
+
+.seluruh-kategori-kelas{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - (2*var(--padding-sisi)));
+    padding-left: var(--padding-sisi);
+    padding-right: var(--padding-sisi);
+}
+
+.kategori-kelas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--batas);
+    border-radius: 20px;
+    padding: 10px;
+    width: calc((100% / 7) - (10px * 5));
+    transition: 200ms filter;
+}
+
+.kategori-kelas:hover{
+    cursor: pointer;
+    filter: grayscale(100%)
+}
+
+.teks-kategori-kelas{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.gbr-kategori-kelas{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+

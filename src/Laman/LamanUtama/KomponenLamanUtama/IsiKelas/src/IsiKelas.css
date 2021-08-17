@@ -1,0 +1,51 @@
+@import '../../../../../css/Akar.css';
+
+.isi-kelas{
+    margin-top: 20px;
+    padding-left: var(--padding-sisi);
+    padding-right: var(--padding-sisi);
+    display: flex;
+    flex-direction: column;
+}
+
+.gbr-isi-kelas{
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
+.teks-judul-isi-kelas{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.teks-lihat-semua{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--warna-primer);
+    transition: 200ms color
+}
+
+.teks-lihat-semua:hover{
+    cursor: pointer;
+    color: var(--warna-sekunder)
+}
+
+.judul-isi-kelas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.judul-isi-kelas > *{
+    margin-right: 5px;
+}
+
+.kelas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}

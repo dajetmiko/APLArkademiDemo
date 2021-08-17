@@ -2,8 +2,8 @@
 
 .isi-menu-lengkap{
     color: var(--warna-teks);
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     filter: 0;
     transition: all 200ms;
     transition-property: filter, -webkit-filter, color;

@@ -1,0 +1,21 @@
+@import '../../../../../css/Akar.css';
+
+.promo-dkk{
+    padding: var(--padding-sisi);
+    padding-top: 40px;
+    padding-bottom: 0;
+    width: calc(100% - (2* var(--padding-sisi)));
+    
+}
+
+.gbr-promo-dkk{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 8px;
+    transition: 300ms filter;
+}
+
+.gbr-promo-dkk:hover{
+    filter: grayscale(100%);
+    cursor: pointer;
+}
