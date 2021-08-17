@@ -1,0 +1,43 @@
+@import '../../../../../../../css/Akar.css';
+
+.kelas-populer{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.isi-kelas-populer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.isi-kelas-populer:hover{
+    cursor:pointer
+}
+
+.teks-isi-kelas-populer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 5px;
+    transition: color 200ms;
+}
+
+.isi-kelas-populer:hover .teks-isi-kelas-populer{
+    color: var(--warna-teks-primer);
+}
+
+.gambar-kelas-populer{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+
+

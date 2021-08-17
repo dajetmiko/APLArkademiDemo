@@ -1,0 +1,48 @@
+@import '../../../../../css/Akar.css';
+
+.boks-cari{
+    display:flex;
+    flex-direction: row;
+    border-radius: 8px;
+    margin-left: 40px;
+    border: var(--batas-input);
+    overflow: hidden;
+    height: 40px;
+    width: 50%;
+    align-items: center;
+}
+
+.boks-cari input{
+    background-color: var(--bg);
+    color: var(--warna-teks);
+    border: 0;
+    font-size: 20px;
+    padding: 10px;
+    height: calc(100% - 40px);
+    width: 100%;
+}
+
+.boks-cari input::placeholder{
+    color: var(--warna-teks-cerah)
+}
+
+.boks-cari input:focus{
+    outline: none;
+}
+
+.kontainer-logo-cari{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontainer-logo-cari:hover{
+    cursor: pointer;
+}
+
+.logo-cari{
+    height: 70%;
+    width: 70%;
+}

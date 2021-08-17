@@ -1,0 +1,28 @@
+@import '../../../../../css/Akar.css';
+
+.isi-menu-lengkap{
+    color: var(--warna-teks);
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: 0;
+    transition: all 200ms;
+    transition-property: filter, -webkit-filter, color;
+}
+
+.isi-menu-lengkap svg:hover{
+    filter: invert(66%) sepia(56%) saturate(6535%) hue-rotate(181deg) brightness(102%) contrast(96%);
+}
+
+.isi-menu-lengkap:hover{
+    color: var(--warna-teks-primer-cerah);
+    cursor: pointer;
+}
+
+.menu-lengkap{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    list-style-type: none;
+}

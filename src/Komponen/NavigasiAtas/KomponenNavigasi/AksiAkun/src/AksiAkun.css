@@ -1,0 +1,37 @@
+@import '../../../../../css/Akar.css';
+
+.aksi-akun{
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    align-items: center;
+}
+
+.tombol-aksi-akun{
+    display: flex;
+    border-radius: 7px;
+    border: var(--batas);
+    align-items: center;
+    width: 80px;
+    height: 35px;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.keranjang-belanja{
+    height:min-content;
+    padding-right: 20px;
+    margin-right: 10px;
+    border-right: var(--batas)
+}
+
+.keranjang-belanja svg:hover{
+    cursor: pointer;
+    filter: invert(66%) sepia(56%) saturate(6535%) hue-rotate(181deg) brightness(102%) contrast(96%);
+}
+
+.tombol-aksi-akun:hover{
+    cursor:pointer;
+}

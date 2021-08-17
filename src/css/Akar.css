@@ -1,0 +1,23 @@
+:root{
+    --bg: #ffffff;
+    --bg-gelap: #41485D0F;
+    --bg-lebih-gelap: #676C7A29;
+
+    --warna-teks-gelap: #1C1D20FF; 
+    --warna-teks: #1C1D20CC;
+    --warna-teks-cerah: #1C1D2080;
+
+    --batas: 1px solid #1C1D2034;
+    --batas-input: 3px solid #51608C19;
+
+    --warna-primer: #0872C7;
+    --warna-teks-primer: #0265B4;
+    --warna-teks-primer-cerah: #159EFA;
+
+    --warna-sekunder: #FF5718;
+    --warna-sekunder-cerah: #FF7F26;
+
+    --padding-sisi: 10%;
+    
+    --ukuran-nav-atas:68px;
+}

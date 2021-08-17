@@ -1,0 +1,31 @@
+@import '../../../css/Akar.css';
+
+.navigasi-atas{
+    background-color: var(--bg);
+    display: flex;
+    height: var(--ukuran-nav-atas);
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigasi-atas-kiri{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    margin-right:auto;
+    width: 40%;
+}
+
+.navigasi-atas-kanan{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 40px;
+    width: 60%;
+}
+
+.logo-arkademi{
+    cursor: pointer;
+}
