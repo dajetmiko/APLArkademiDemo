@@ -1,3 +1,3 @@
-# Halaman demo APLArkademiDemo
+# Halaman demo APLArkademiDemo TS
 
-Halaman demo
+Halaman demo versi TypeScript
