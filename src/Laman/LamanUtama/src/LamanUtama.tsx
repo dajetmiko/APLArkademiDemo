@@ -10,6 +10,7 @@ import KelebihanArkademi from '../KomponenLamanUtama/KelebihanArkademi'
 import SeluruhKategoriKelas from '../KomponenLamanUtama/SeluruhKategoriKelas'
 import JarakWaktu from '../KomponenLamanUtama/JarakWaktu'
 import MediaYangMeliput from '../KomponenLamanUtama/MediaYangMeliput'
+import DaftarPengajar from '../KomponenLamanUtama/DaftarPengajar'
 
 const LamanUtama: FC<ILamanUtama> = (_p) => {
   return(
@@ -26,6 +27,7 @@ const LamanUtama: FC<ILamanUtama> = (_p) => {
       <SeluruhKategoriKelas/>
       <JarakWaktu/>
       <MediaYangMeliput/>
+      <DaftarPengajar/>
     </div>
   )
 }

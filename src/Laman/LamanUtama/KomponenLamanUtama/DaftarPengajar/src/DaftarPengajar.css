@@ -1,0 +1,46 @@
+@import '../../../../../css/Akar.css';
+
+.daftar-pengajar{
+    padding: var(--padding-sisi);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: var(--warna-primer);
+}
+
+.isi-daftar-pengajar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--warna-teks-putih)
+}
+
+.gbr-papan-tulis{
+    width: 34px;
+    height: 34px;
+}
+
+.judul-daftar-pengajar{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.teks-daftar-pengajar{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tbl-mulai-mengajar{
+    margin-top: 30px;
+    color: var(--warna-primer);
+    background-color: var(--bg);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: filter 200ms
+}
+
+.tbl-mulai-mengajar:hover{
+    cursor: pointer;
+    filter: grayscale(100%)
+}
